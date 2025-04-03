@@ -85,7 +85,7 @@ const EffortleffCloude = () => {
               </p>
             </div>
             <div className="button ">
-            <button className="text-[#0F0E47] bg-white text-sm py-1 w-[100%] rounded-2xl md:pt-4">N2WS' server belongs to you it's not shared</button>
+            <button className="text-[#0F0E47] bg-white text-sm py-1 w-[100%] rounded-2xl md:pt-4">N2WS&apos; server belongs to you it&apos;s not shared</button>
             </div>
             <div className="logo">
                 <ul className="flex pt-5 justify-between items-center px-1">

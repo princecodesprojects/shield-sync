@@ -19,7 +19,7 @@ const CustomerCards = ({name,profile,about}:Props) => {
              </div>
           </div>
           <div className="about   ">  
-              <p className='text-[#4B5563]'>"{about}"</p>
+              <p className='text-[#4B5563]'>&quot;{about}&quot;</p>
           </div>
     </div>
   )
