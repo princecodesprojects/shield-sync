@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
 import { SidebarTrigger } from "./ui/sidebar";
+import Link from "next/link";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,11 +22,11 @@ const Navbar = () => {
           <Image
             src="/images/Frame.jpg"
             alt="Logo"
-            width={30}
+            width={35}
             height={30}
             className="w-6 sm:w-7 lg:w-8"
           />
-          <h1 className="text-[#0F0E47] text-base sm:text-lg lg:text-xl font-medium pl-1">
+          <h1 className="text-[#0F0E47] text-xl text-base sm:text-lg lg:text-xl font-medium pl-1">
             ShieldSync
           </h1>
         </div>
@@ -50,12 +51,12 @@ const Navbar = () => {
 
         {/* Auth Buttons */}
         <div className="flex items-center gap-3 sm:gap-4 md:gap-5">
-          <button className="text-[#4B5563] text-sm sm:text-base hover:text-[#0F0E47] transition-colors px-2">
+          {/* <button className="text-[#4B5563] text-sm sm:text-base hover:text-[#0F0E47] transition-colors px-2">
             Login
-          </button>
-          <button className="text-[#E5E7EB] bg-[#0F0E47] py-1.5 px-3 sm:px-4 md:px-5 lg:px-6 rounded-lg text-sm sm:text-base hover:bg-[#1a1960] transition-colors">
+          </button> */}
+          {/* <button className="text-[#E5E7EB] md:hidden bg-[#0F0E47] py-1.5 px-3 sm:px-4 md:px-5 lg:px-6 rounded-lg text-sm sm:text-base hover:bg-[#1a1960] transition-colors">
             Start Free Trial
-          </button>
+          </button> */}
           <button 
             onClick={handleClick}
             className="md:hidden flex items-center justify-center ml-2 sm:ml-4
@@ -72,7 +73,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      {isOpen && (
+      {/* {isOpen && (
         <div className="fixed inset-0 bg-[#0F0E47] z-50 md:hidden">
           <div className="flex flex-col h-full relative">
             <button 
@@ -99,7 +100,19 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-      )}
+      )} */}
+       {/* Mobile Menu */}
+       {isOpen && (
+                <div className="md:hidden flex flex-col items-center mt-4 space-y-4 bg-white p-4">
+                    <Link href="#" className="text-gray-700 hover:text-gray-900">Features</Link>
+                    <Link href="#" className="text-gray-700 hover:text-gray-900">Solutions</Link>
+                    <Link href="#" className="text-gray-700 hover:text-gray-900">Pricing</Link>
+                    <Link href="#" className="text-gray-700 hover:text-gray-900">FAQ</Link>
+                    <hr className="w-full border-gray-200" />
+                    <Link href="#" className="text-gray-600 hover:text-gray-900">Login</Link>
+                    <Link href="#" className="bg-[#1a1147] text-white px-4 py-2 rounded-md text-sm">Start Free Trial</Link>
+                </div>
+            )}
     </nav>
   );
 };

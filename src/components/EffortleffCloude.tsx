@@ -4,9 +4,9 @@ import Image from "next/image";
 const EffortleffCloude = () => {
   return (
     <div className="w-full bg-[#E5E7EB]   md:p-0">
-      <div className="w-11/12 mx-auto py-3 sm:w-[80%] md:w-[80%]">
+      <div className="w-11/12 mx-auto py-3 sm:w-[80%] md:w-[80%] xl:w-[60%]">
         <div className="text-[#0F0E47] text-center">
-          <h1 className="text-2xl font-bold sm:text-3xl md:font-bold md:text-4xl pt-3 md:pt-5">
+          <h1 className="text-2xl font-bold sm:text-3xl md:font-bold md:text-4xl xl:text-5xl pt-3 md:pt-5">
             Effortless Cloud Storage Backups for
           </h1>
           {/* <h1 className="text-xl font-bold md:font-medium md:text-5xl">
@@ -53,7 +53,7 @@ const EffortleffCloude = () => {
             p-4 
             sm:p-4 md:p-5 lg:p-6 xl:p-3 
             min-h-[280px]
-            sm:h-[340px] md:h-[400px] lg:h-[320px] xl:h-[320px]
+            sm:h-[300px] md:h-[400px] lg:h-[320px] xl:h-[320px]
             flex flex-col 
             gap-6
             sm:flex-row md:flex-col xl:flex-row sm:gap-5 md:gap-6">
@@ -120,7 +120,7 @@ const EffortleffCloude = () => {
           {/* Top Right Card */}
           <div className="top-right bg-[#8686AC] 
             w-full max-w-[95%]
-            sm:w-[85%] md:w-[80%] lg:w-[70%]  xl:w-7/12
+            sm:w-[85%] md:w-[80%] lg:w-[50%]  xl:w-7/12
             rounded-lg sm:rounded-xl
             p-4
             sm:p-4 md:p-5 lg:p-6
@@ -177,17 +177,17 @@ const EffortleffCloude = () => {
         <div className="bottom flex flex-col md:flex-row xl:flex-row items-center xl:justify-center
           gap-4 px-4 mt-4
           w-full max-w-[95%] mx-auto
-          sm:gap-3 sm:px-0 sm:mt-4 md:mt-6 lg:mt-8 md:w-11/12">
+          sm:gap-3 sm:px-0 sm:mt-4 md:mt-6 lg:mt-8 md:w-11/12 lg:w-full">
           
           {/* Bottom Left Card */}
           <div className="bottom-left bg-[#8686AC] 
              max-w-[95%]
-            sm:w-[85%] md:w-[500px] lg:w-[68%] xl:w-[30%]
+            sm:w-[85%] md:w-[500px] lg:w-[65%] xl:w-[30%]
             rounded-lg sm:rounded-xl
             p-4
             sm:p-5 md:p-6 lg:p-7
             min-h-[180px]
-            sm:min-h-[157px] md:h-[350px] lg:h-[147px] xl:h-[300px]">
+            sm:min-h-[157px] md:h-[350px] lg:h-[300px] xl:h-[300px]">
             <div className="flex flex-col justify-between h-full">
               <div className="text space-y-2 sm:space-y-3">
                 <h1 className="text-[#0F0E47] 
@@ -207,7 +207,7 @@ const EffortleffCloude = () => {
                 <button className="text-[#0F0E47] 
                   bg-white 
                   w-full 
-                  py-2 my-2 sm:py-2.5 md:py-3
+                  py-2 my-2 md: sm:py-2.5 md:py-3
                   px-1 sm:px-4 md:px-1
                   text-sm sm:text-base
                   rounded-2xl
@@ -265,12 +265,12 @@ const EffortleffCloude = () => {
           {/* Bottom Right Card */}
           <div className="bottom-right bg-[#8686AC]  
             w-full
-            sm:w-[85%] md:w-[500px] lg:w-[80%]  xl:w-[600px]
+            sm:w-[85%] md:w-[500px] lg:w-[95%]  xl:w-[600px]
             rounded-lg sm:rounded-xl
             p-4
             sm:p-5 md:p-6 lg:p-7
             min-h-[180px]
-            sm:min-h-[157px] md:h-[300px] lg:h-[300px]">
+            sm:min-h-[157px] md:h-[350px] lg:h-[300px]">
             <div className="flex flex-col sm:flex-row justify-between h-full gap-2 sm:gap-2">
               <div className="w-full sm:w-7/12 flex flex-col justify-between">
                 <div className="space-y-2 sm:space-y-3">
