@@ -8,10 +8,14 @@ import Pricing from "@/components/Pricing";
 import AskedQuestion from "@/components/AskedQuestion";
 import StartProtecting from "@/components/StartProtecting";
 import Footer from "@/components/Footer"
+import AppSlideBar from "@/components/AppSlideBar"
+import { SidebarProvider } from "@/components/ui/sidebar";
 
 export default function Home() {
   return (
     <div className=" ">
+      <SidebarProvider defaultOpen={false}>
+        <AppSlideBar/>
       <main className="">
         <Navbar/>
         <EffortleffCloude/>
@@ -24,6 +28,7 @@ export default function Home() {
         <StartProtecting/>
         <Footer/>
       </main>
+      </SidebarProvider>
     </div>
   );
 }

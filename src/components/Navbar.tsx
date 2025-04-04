@@ -3,7 +3,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { RxCross1 } from "react-icons/rx";
+import { SidebarTrigger } from "./ui/sidebar";
 
 const Navbar = () => {
   const [isOpne, setIsOpen] = useState(false);
@@ -12,9 +12,6 @@ const Navbar = () => {
     setIsOpen(!isOpne);
   };
 
-  const clickStyle={
-    width:"w-[50%]"
-  }
 
   const stile={
     transition:"witdth 1s ease-in-out",
@@ -34,8 +31,9 @@ const Navbar = () => {
           />
           <h1 className="text-[#0F0E47] text-lg">ShieldSync</h1>
         </div>
+
         {isOpne && (
-          <div  style={stile} className="absolute top-18 right-0 border-1 w-[50%] bg-[#0F0E47] text-white  h-[30vh] flex flex-col justify-center items-center">
+          <div  style={stile} className="absolute top-18 right-0 border-1 w-[50%] bg-[#0F0E47] text-white  h-[30vh] hidden flex-col justify-center items-center">
             {/* <button
               className="absolute top-3 right-5 p-2 bg-amber-50 text-black"
               onClick={handleClick}
@@ -70,7 +68,8 @@ const Navbar = () => {
           className="text-[#4B5563] py-1 text-xl md:hidden"
           onClick={handleClick}
         >
-          {!isOpne?<GiHamburgerMenu />:<RxCross1 className=""/>}
+          {/* {!isOpne?<GiHamburgerMenu />:<RxCross1 className=""/>} */}
+          <SidebarTrigger className="md:hidden flex  ml-4"><GiHamburgerMenu /></SidebarTrigger>
         </div>
       </div>
     </nav>
