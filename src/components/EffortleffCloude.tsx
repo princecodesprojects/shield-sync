@@ -44,7 +44,7 @@ const EffortleffCloude = () => {
           <div className="top-left bg-[#8686AC]  w-10/12 rounded-lg  md:rounded-xl p-4 md:flex md:gap-3 md:py-8 md:w-7/12 md:h-70">
             <div className="text md:w-[55%]">
               <div className="top-text md:pt-0">
-                <h1 className="text-[#0F0E47] text-lg font-medium">
+                <h1 className="text-[#0F0E47] text-lg md:text-xl font-medium">
                   Rapid, reliable recovery
                 </h1>
                 <p className="text-[#4B5563] text-start leading-4 md:leading-5">
@@ -59,7 +59,7 @@ const EffortleffCloude = () => {
                 </p>
               </div>
             </div>
-            <div className="circle-buttn flex flex-col gap-2 md:w-[40%] md:mt-38">
+            <div className="circle-buttn flex flex-col gap-2 md:w-[40%] md:mt-36">
               <button className="text-[#0F0E47] bg-white border w-[100%] rounded-2xl">
                 Dr of encryption resourse
               </button>
@@ -70,7 +70,7 @@ const EffortleffCloude = () => {
           </div>
           <div className="top-right bg-[#8686AC] w-10/12  rounded-lg md:rounded-xl p-4 mt-2 md:w-5/12 md:mt-0 md:py-7 md:h-70 md:h-70">
             <div className="text">
-              <h1 className="text-[#0F0E47] text-lg font-medium">
+              <h1 className="text-[#0F0E47] text-lg font-medium  md:text-xl">
                 Automated cost saving
               </h1>
               <p className="text-[#4B5563] text-start leading-4 md:leading-5 py-2 md:py-0 md:pb-10">
@@ -81,11 +81,11 @@ const EffortleffCloude = () => {
             <div className="card flex gap-4">
               <div className="left-card bg-white p-4 rounded-2xl md:w-6/12 md:px-4 md:pt-6 md:pb-4">
                 <p className="text-[#0F0E47] text-sm">Compute saving</p>
-                <p className="text-[#0F0E47] text-md font-bold">$1,248.75</p>
+                <p className="text-[#0F0E47] text-md font-bold md:text-xl">$1,248.75</p>
               </div>
               <div className="right-card bg-white p-4 rounded-2xl md:w-5/12 md:px-4 md:pt-6 md:pb-4">
-                <p className="text-[#0F0E47] text-sm ">Storage saving</p>
-                <p className="text-[#0F0E47] text-md font-bold">98%</p>
+                <p className="text-[#0F0E47] text-sm">Storage saving</p>
+                <p className="text-[#0F0E47] text-md font-bold md:text-xl">98%</p>
               </div>
             </div>
           </div>
@@ -93,7 +93,7 @@ const EffortleffCloude = () => {
         <div className="bottom flex flex-col items-center  mt-2 gap-3 md:flex-row md:w-8/12">
           <div className="bottom-left bg-[#8686AC]  w-10/12  rounded-lg  p-4 md:w-6/12 md:h-56">
             <div className="text">
-              <h1 className="text-[#0F0E47] text-lg font-medium">
+              <h1 className="text-[#0F0E47] text-lg font-medium  md:text-xl">
                 Data sovereignty and security
               </h1>
               <p className="text-[#4B5563] text-start leading-4 py-2 md:leading-5 ">
@@ -146,10 +146,10 @@ const EffortleffCloude = () => {
           <div className="bottom-right bg-[#8686AC]  w-10/12  rounded-lg p-4 md:flex md:gap-3 md:py-5 md:h-56">
             <div className="left md:w-7/12">
               <div className="top">
-                <h1 className="text-[#0F0E47] text-lg font-medium">
+                <h1 className="text-[#0F0E47] text-lg font-medium  md:text-xl">
                   Multi-cloud Management
                 </h1>
-                <p className="text-[#4B5563] text-start leading-4 py-2 md:pt-1 md:pb- md:leading-5">
+                <p className="text-[#4B5563] text-start leading-4 py-2 md:pt-1 md:pb-3 md:leading-5">
                   Easily manage all backup & recovery policies in different
                   accounts, regions, and clouds—in one console.
                 </p>

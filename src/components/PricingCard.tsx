@@ -8,6 +8,7 @@ interface Props {
   provider: string;
   button: string;
   popular:string
+  time:string
 }
 
 const PricingCard = ({
@@ -17,16 +18,17 @@ const PricingCard = ({
   support,
   provider,
   button,
-  popular
-}: Props) => {
+  popular,
+  time
+}: Props) => { 
   return (
-    <div className="main border relative w-[80%] h-60 mx-auto flex flex-col justify-center items-center rounded-lg md:w-[90%] hover:bg-[#8686AC] group">
+    <div className="main border relative w-[80%] h-70 mx-auto flex flex-col justify-center items-center rounded-lg md:w-[90%] hover:bg-[#8686AC] group">
       {popular==="true" && <div className="text-white bg-[#0F0E47] absolute top-0 right-0 rounded-sm text-sm p-2">Popular</div>}
       <div className="content w-[90%] h-[90%] md:h-[50vh]">
-        <h1 className="text-[#0F0E47] group-hover:text-white text-sm py-2 transition-colors">{plan}</h1>
-        <h1 className="text-[#0F0E47] group-hover:text-white text-2xl py-1 transition-colors">
+        <h1 className="text-[#0F0E47] group-hover:text-white text-sm py-2 transition-colors md:py-5">{plan}</h1>
+        <h1 className="text-[#0F0E47] group-hover:text-white text-2xl py-1 transition-colors md:text-3xl md:py-2">
           {price}
-          <span className="text-lg">/mo</span>
+          <span className="text-lg">{time}</span>
         </h1>
         <h1 className="text-[#0F0E47] group-hover:text-white flex flex-row gap-2 py-1 transition-colors">
           <span>

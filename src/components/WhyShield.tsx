@@ -5,8 +5,8 @@ export default function WhyShieldSync() {
   // Feature data for mapping
 
   return (
-    <section className="py-10">
-      <div className="heading py-5 ">
+    <section className="py-10 md:py-15">
+      <div className="heading pb-5 md:pb-8">
         <h1 className="text-[#0f0e47] text-4xl text-center">Why ShieldSync?</h1>
       </div>
       <div className="box flex flex-col items-center gap-3     md:flex md:flex-row w-[90%] mx-auto justify-between">
@@ -18,7 +18,7 @@ export default function WhyShieldSync() {
               height={10}
               src="/images/check.png"
               alt="logo"
-              className="w-5 md:w-8"
+              className="w-5 md:w-7"
               />
               <span className="text-[#0f0e47] text-sm font-medium md:text-xl">100% Automated Cloud Storage Backup</span>
             </h1>
@@ -31,9 +31,9 @@ export default function WhyShieldSync() {
               height={10}
               src="/images/shield.png"
               alt="logo"
-             className="w-5 md:w-8"
+             className="w-5 md:w-7"
               />
-              <span className="text-[#0f0e47] md:text-xl">Ransomware Protection</span>
+              <span className="text-[#0f0e47] text-sm font-medium md:text-xl">Ransomware Protection</span>
             </h1>
             <h2 className="text-[#4B5563] pl-6 pt-3 md:text-lg md:pl-10">Backups remain untouchable with immutable storage</h2>
           </div>
@@ -44,16 +44,16 @@ export default function WhyShieldSync() {
               height={10}
               src="/images/bar.png"
               alt="logo"
-              className="w-5 md:w-8"
+              className="w-5 md:w-7"
               />
-              <span className="text-[#0f0e47] md:text-xl">Affordable & Scalable</span>
+              <span className="text-[#0f0e47] text-sm font-medium md:text-xl">Affordable & Scalable</span>
             </h1>
             <h2 className="text-[#4B5563] pl-6 pt-3 md:text-lg md:pl-10">Pay-as-you-grow model tailored for SMBs</h2>
           </div>
         </div>
-        <div className="right   w-[85%] bg-gray-300 py-5 rounded-xl md:w-[45%] md:py-7">
+        <div className="right   w-[82%] bg-gray-300 py-5 rounded-xl md:w-[45%] md:py-7">
             <div className="box   w-[90%] mx-auto bg-white rounded-xl md:w-[85%]">
-                <div className="container p-3">
+                <div className="container p-2">
                     <div className="text flex justify-between">
                         <h1 className="text-[#0f0e47]">Backup Status</h1>
                         <h1 className="text-gray-600">Last backup: 2 min ago</h1>

@@ -17,7 +17,7 @@ const Surveyed = () => {
           & Recovery
         </p>
       </div>
-      <div className="bottom pt-3 pb-15">
+      <div className="bottom pt-3 pb-10 md:pb-15">
         <ul className="flex w-[90%]   mx-auto justify-between items-center flew-wrap"> 
           <li className="flex md:gap-1">
             <Image
@@ -25,7 +25,7 @@ const Surveyed = () => {
               alt="card1"
               width={50}
               height={50}
-              className="md:w-50"
+              className="w-20 h-10 md:w-50"
             />
           </li>
           <li>
@@ -34,7 +34,7 @@ const Surveyed = () => {
               alt="card1"
               width={50}
               height={10}
-              className="md:w-30"
+              className="md:w-25"
             />
           </li>
           <li className="bg-black/70 md:p-2 md:rounded-[60%]">
@@ -43,7 +43,7 @@ const Surveyed = () => {
               alt="card1"
               width={25}
               height={10}
-              
+              className="w-5 md:w-7"
             />
           </li>
           <li>
@@ -52,7 +52,7 @@ const Surveyed = () => {
               alt="card1"
               width={25}
               height={10}
-              className="md:w-20"
+              className="w-8 md:w-15"
             />
           </li>
           <li>
@@ -61,7 +61,7 @@ const Surveyed = () => {
               alt="card1"
               width={25}
               height={10}
-              className="md:w-30"
+              className="w-15 md:w-30"
             />
           </li>
           <li>
@@ -70,7 +70,7 @@ const Surveyed = () => {
               alt="card1"
               width={25}
               height={10}
-              className="md:w-20"
+              className="w-8 md:w-15"
             />
           </li>
         </ul>
@@ -81,7 +81,7 @@ const Surveyed = () => {
               alt="card1"
               width={40}
               height={10}
-              className="md:w-15"
+              className="md:w-13"
             />
           </li>
           <li>
@@ -90,7 +90,7 @@ const Surveyed = () => {
               alt="card1"
               width={40}
               height={10}
-               className="md:w-25"
+               className="w-13 h-7 md:w-25"
             />
           </li>
           <li className="flex">
@@ -99,7 +99,7 @@ const Surveyed = () => {
               alt="card1"
               width={30}
               height={10}
-               className="md:w-20"
+               className="w-12 md:w-20"
             />  
           </li>
           <li>
@@ -108,7 +108,7 @@ const Surveyed = () => {
             alt="card1"
             width={40}
             height={10}
-             className="md:w-15"
+             className="w-8 md:w-12"
           />
           </li>
           <li>
@@ -117,7 +117,7 @@ const Surveyed = () => {
             alt="card1"
             width={40}
             height={10}
-            className="md:w-20"
+            className="w-15 md:w-25"
           />
           </li>
           <li>
@@ -126,7 +126,7 @@ const Surveyed = () => {
             alt="card1"
             width={40}
             height={10}
-            className="md:w-15"
+            className="w-8 md:w-12"
           />
           </li>
         </ul>

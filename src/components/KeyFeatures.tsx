@@ -7,11 +7,11 @@ const KeyFeatures = () => {
       <div className="top py-10">
         <h1 className="text-[#0F0E47] text-2xl text-center">Key Features</h1>
       </div>
-      <div className="bottom md:w-[80%]  flex flex-col gap-3 items-center pb-10 md:flex-row md:mx-auto md:justify-center">
+      <div className="bottom md:w-[80%]  flex flex-col gap-3 items-center pb-10 md:flex-row md:mx-auto md:justify-center md:pb-15 md:gap-7">
         <KeyFeatureCard
           logo="/images/upload.png"
           heading="Automated Cloud Backups"
-          para="Schedule and manage backups for AWS S3,Azure Blob & GCP Storage"
+          para="Schedule and manage backups for AWS S3, Azure Blob & GCP Storage"
           size=""
         />
         <KeyFeatureCard
@@ -20,7 +20,7 @@ const KeyFeatures = () => {
           para="Prevent ransomware attacks with AES-256 encryption"
           size="md:w-5"
         />
-        <KeyFeatureCard
+        <KeyFeatureCard  
           logo="/images/reload.png"
           heading="One-Click Data Recovery"
           para="Instantly restore files and folders from cloud backups"
