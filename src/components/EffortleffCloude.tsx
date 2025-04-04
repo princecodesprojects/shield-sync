@@ -3,7 +3,7 @@ import Image from "next/image";
 //box color #8686AC
 const EffortleffCloude = () => {
   return (
-    <div className="w-full h-full bg-[#E5E7EB]   md:p-0">
+    <div className="w-full bg-[#E5E7EB]   md:p-0">
       <div className="w-11/12 mx-auto py-3 md:w-3/5">
         <div className="text-[#0F0E47] text-center">
           <h1 className="text-2xl font-bold md:font-bold md:text-5xl pt-3 md:pt-5">
