@@ -50,12 +50,13 @@ const Navbar = () => {
 
         {/* Auth Buttons */}
         <div className="flex items-center gap-3 sm:gap-4 md:gap-5">
-          {/* <button className="text-[#4B5563] text-sm sm:text-base hover:text-[#0F0E47] transition-colors px-2">
+          <button className="text-[#4B5563] hidden md:block text-sm sm:text-base hover:text-[#0F0E47] transition-colors px-2">
             Login
-          </button> */}
-          {/* <button className="text-[#E5E7EB] md:hidden bg-[#0F0E47] py-1.5 px-3 sm:px-4 md:px-5 lg:px-6 rounded-lg text-sm sm:text-base hover:bg-[#1a1960] transition-colors">
+          </button>
+          <button className="text-[#E5E7EB] hidden md:block bg-[#0F0E47] py-1.5 px-3 sm:px-4 md:px-5 lg:px-6 rounded-lg text-sm sm:text-base hover:bg-[#1a1960] transition-colors">
             Start Free Trial
-          </button> */}
+          </button>
+
           <button 
             onClick={handleClick}
             className="md:hidden flex items-center justify-center ml-2 sm:ml-4
