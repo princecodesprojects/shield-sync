@@ -39,7 +39,7 @@ const handleClick = () => {
          }
 
          <div className='hidden md:block'>
-         <ul className=' md:text-[#4B5563] flex gap-5 text-lg'>
+         <ul className=' md:text-[#4B5563] flex gap-5 text-lg md:gap-8'>
                 <li>Feature</li>
                 <li>Solution</li>
                 <li>Pricing</li>
@@ -49,8 +49,8 @@ const handleClick = () => {
          
          
          <div className="flex gap-3 items-center">
-            <button className='text-[#4B5563]'>Login</button>
-            <button className='text-[#E5E7EB] bg-[#0F0E47] py-1 px-2 rounded-lg'>Start Free Trial</button>
+            <button className='text-[#4B5563] md:text-lg'>Login</button>
+            <button className='text-[#E5E7EB] bg-[#0F0E47] py-1 px-2 rounded-lg md:rounded-md md:px-3'>Start Free Trial</button>
          </div>
          <div className='text-[#4B5563] py-1 text-xl md:hidden' onClick={handleClick}>
          <GiHamburgerMenu />
