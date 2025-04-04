@@ -3,9 +3,9 @@ import Questions from "./Questions";
 
 const AskedQuestion = () => {
   return (
-    <div className="main border bg-[#f4f6fa] py-8">
-      <div className="headi my-5">
-        <h1 className="text-[#0F0E47] text-center text-xl md:text-2xl md:font-medium">
+    <div className="main border bg-[#f4f6fa] py-8 md:py-15">
+      <div className="headi my-5 md:my-0 md:mb-8">
+        <h1 className="text-[#0F0E47] text-center text-2xl font-normal md:text-3xl md:font-normal">
           Frequently Asked Questions
         </h1>
       </div>
