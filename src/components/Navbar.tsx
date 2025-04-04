@@ -74,7 +74,7 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {isOpen && (
         <div className="fixed inset-0 bg-[#0F0E47] z-50 md:hidden">
-          <div className="flex flex-col items-center justify-center h-full relative">
+          <div className="flex flex-col h-full relative">
             <button 
               onClick={handleClick}
               className="absolute top-4 right-4
