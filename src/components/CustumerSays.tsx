@@ -9,24 +9,24 @@ const CustumerSays = () => {
           What Our Customers Say
         </h1>
       </div>
-      <div className="cards-container  flex flex-col gap-4 md:flex-row md:w-[80%] mx-auto md:gap-7">
+      <div className="cards-container  flex flex-col items-center justify-center gap-4 md:flex-row md:w-[80%] mx-auto md:gap-7">
         <CustomerCards
           name="John Smith"
           profile="IT Director, TechCorp"
           about="ShieldSync has simplified our backup strategy across multiple cloud providers. It\'s reliable and cost-effective."
-          image=""
+          image="/images/masa.png"
         />
          <CustomerCards
           name="John Smith"
           profile="IT Director, TechCorp"
           about="ShieldSync has simplified our backup strategy across multiple cloud providers. It\'s reliable and cost-effective."
-          image=""
+          image="/images/masa.png"
         />
          <CustomerCards
           name="John Smith"
           profile="IT Director, TechCorp"
           about="ShieldSync has simplified our backup strategy across multiple cloud providers. It\'s reliable and cost-effective."
-          image=""
+          image="/images/masa.png"
         />
       </div>
     </div>

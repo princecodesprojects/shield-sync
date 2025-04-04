@@ -5,9 +5,9 @@ const Pricing = () => {
   return (
     <div className="main  pb-10 md:pb-0 md:my-15">
       <div className="heading py-8 md:py-0">
-        <h1 className="text-[#0F0E47] text-center text-3xl font-normal md:text3xl">Simple, Transparent Pricing</h1>
+        <h1 className="text-[#0F0E47] text-center text-3xl font-normal md:text-4xl">Simple, Transparent Pricing</h1>
       </div>
-      <div className="time text-center pt-1 pb-8 ">
+      <div className="time text-center md:pt-10 pb-8 ">
         <div className=" w-45 mx-auto bg-[#F3F4F6] py-2 px-3 rounded-lg">
         <button className="text-[#0F0E47] hover:bg-[#E5E7EB] py-2 px-3 rounded-xl mr-1">Monthly</button>
         <button className="text-[#0F0E47] hover:bg-[#E5E7EB] py-2 px-3 rounded-xl">Yearly</button>

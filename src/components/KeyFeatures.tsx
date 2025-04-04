@@ -5,7 +5,7 @@ const KeyFeatures = () => {
   return (
     <div className="bg-[#E5E7EB]">
       <div className="top py-10">
-        <h1 className="text-[#0F0E47] text-2xl text-center">Key Features</h1>
+        <h1 className="text-[#0F0E47] text-2xl md  text-center">Key Features</h1>
       </div>
       <div className="bottom md:w-[80%]  flex flex-col gap-3 items-center pb-10 md:flex-row md:mx-auto md:justify-center md:pb-15 md:gap-7">
         <KeyFeatureCard
