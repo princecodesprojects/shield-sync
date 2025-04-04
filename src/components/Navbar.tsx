@@ -4,7 +4,6 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { IoMdClose } from "react-icons/io";
-import { SidebarTrigger } from "./ui/sidebar";
 import Link from "next/link";
 
 const Navbar = () => {
