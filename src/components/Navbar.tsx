@@ -33,16 +33,16 @@ const Navbar = () => {
         {/* Desktop Navigation */}
         <div className="hidden md:block">
           <ul className="flex items-center gap-6 lg:gap-8 xl:gap-10 text-[#4B5563]">
-            <li className="hover:text-[#0F0E47] transition-colors cursor-pointer text-sm lg:text-base px-1">
+            <li className="hover:text-[#0F0E47] transition-colors cursor-pointer text-lg lg:text-xl px-1">
               Feature
             </li>
-            <li className="hover:text-[#0F0E47] transition-colors cursor-pointer text-sm lg:text-base px-1">
+            <li className="hover:text-[#0F0E47] transition-colors cursor-pointer text-lg lg:text-xl px-1">
               Solution
             </li>
-            <li className="hover:text-[#0F0E47] transition-colors cursor-pointer text-sm lg:text-base px-1">
+            <li className="hover:text-[#0F0E47] transition-colors cursor-pointer text-lg lg:text-xl px-1">
               Pricing
             </li>
-            <li className="hover:text-[#0F0E47] transition-colors cursor-pointer text-sm lg:text-base px-1">
+            <li className="hover:text-[#0F0E47] transition-colors cursor-pointer text-lg lg:text-xl px-1">
               FAQ
             </li>
           </ul>
@@ -50,10 +50,10 @@ const Navbar = () => {
 
         {/* Auth Buttons */}
         <div className="flex items-center gap-3 sm:gap-4 md:gap-5">
-          <button className="text-[#4B5563] hidden md:block text-sm sm:text-base hover:text-[#0F0E47] transition-colors px-2">
+          <button className="text-[#4B5563] hidden md:block text-lg lg:text-xl hover:text-[#0F0E47] transition-colors px-2">
             Login
           </button>
-          <button className="text-[#E5E7EB] hidden md:block bg-[#0F0E47] py-1.5 px-3 sm:px-4 md:px-5 lg:px-6 rounded-lg text-sm sm:text-base hover:bg-[#1a1960] transition-colors">
+          <button className="text-[#E5E7EB] hidden md:block bg-[#0F0E47] py-1.5 px-3 sm:px-4 md:px-5 lg:px-6 rounded-lg text-lg lg:text-xl hover:bg-[#1a1960] transition-colors">
             Start Free Trial
           </button>
 

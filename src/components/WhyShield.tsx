@@ -26,7 +26,7 @@ export default function WhyShieldSync() {
               <Image 
                 width={28}
                 height={28}
-                src="/images/check.png"
+                src="/images/tick1.png"
                 alt="Automated Backup Icon"
                 className="w-5 sm:w-6 md:w-7 lg:w-8"
               />
@@ -47,7 +47,7 @@ export default function WhyShieldSync() {
               <Image 
                 width={28}
                 height={28}
-                src="/images/shield.png"
+                src="/images/shild.png"
                 alt="Shield Icon"
                 className="w-5 sm:w-6 md:w-7 lg:w-8"
               />
@@ -68,7 +68,7 @@ export default function WhyShieldSync() {
               <Image 
                 width={28}
                 height={28}
-                src="/images/bar.png"
+                src="/images/bar1.png"
                 alt="Scale Icon"
                 className="w-5 sm:w-6 md:w-7 lg:w-8"
               />
